@@ -1,1 +1,1 @@
-print ("start")
+print ("Neevklid Ogon'!!!")
