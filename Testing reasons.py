@@ -1,0 +1,5 @@
+print ("What is the length?")
+field_length=input()
+print ("What is the width?")
+field_width=input()
+print ("Okay, I got you, your field should be "+field_length+"x"+field_width)
