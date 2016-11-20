@@ -10,11 +10,11 @@ def chiotnoenechiotnoe ():
     action=input()
     if action=="*":
         print (number26*number27)
-    if action == "/":
+    elif action == "/":
         print(number26 / number27)
-    if action == "+":
+    elif action == "+":
         print(number26 + number27)
-    if action == "-":
+    elif action == "-":
         print(number26 - number27)
     else: print("Delai chto tebe skazali, ueban!!!")
 
