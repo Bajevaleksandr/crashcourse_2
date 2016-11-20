@@ -1,0 +1,14 @@
+from graphics import *
+
+print("Hello, how big should be a play field? ")
+field_width=input ("Tell us the width ")
+field_length=input ("Tell us the length")
+print("OK, I got it, you need the wight of " + field_width)
+print("And the lenght shuld be " + field_length)
+
+win = GraphWin()
+pt = Point(100, 50)
+pt.draw(win)
+rect = Rectangle(Point(field_width, field_length), pt)
+rect.draw(win)
+input ("Press enter to continue")
